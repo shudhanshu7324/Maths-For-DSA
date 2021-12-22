@@ -1,0 +1,10 @@
+package MathsForDSA;
+
+public class CheckOdd {
+    public static void main(String[] args){
+        System.out.println(checkOdd(51));
+    }
+    public static boolean checkOdd(int n){
+        return (n & 1) == 1;
+    }
+}
