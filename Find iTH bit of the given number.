@@ -1,0 +1,10 @@
+package MathsForDSA;
+
+public class iThBitOfNumber {
+    public static void main(String[] args) {
+        System.out.println(bitOfNumber(19));
+    }
+    public static int bitOfNumber(int n){
+        return n & (1 << (4 //enter the bit here));
+    }
+}
